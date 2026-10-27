@@ -1,0 +1,12 @@
+# TO Technologies — robots.txt
+# Replace www.example.com with your actual domain
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
+
+# Block access to development/hidden files
+Disallow: /.git/
+Disallow: /.env
+Disallow: /node_modules/
